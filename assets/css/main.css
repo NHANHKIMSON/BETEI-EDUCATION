@@ -77,7 +77,9 @@ a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
-
+p{
+  font-family: "Bayon";
+}
 h1,
 h2,
 h3,
