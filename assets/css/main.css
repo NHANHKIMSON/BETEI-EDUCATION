@@ -66,11 +66,13 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
+/* form Login and register */
 
 a {
   color: var(--accent-color);
   text-decoration: none;
   transition: 0.3s;
+  font-family: var(--heading-font);
 }
 
 a:hover {
