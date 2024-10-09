@@ -1,40 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Contact - Mentor Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/Login.css">
-  <link rel="stylesheet" href="assets/css/Costomize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ចូលគណនី</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
-    <div class="main">
-
-        <!-- Sign up form -->
-         
+    <div class="container">
+        <div class="Form login-form">
+        <h2>ចូលប្រើប្រាស់</h2>
+        <form action="#">
+            <div class="input-box">
+                <i class='bx bxs-user'></i>
+                <label for="#">ឈ្មោះចូលប្រើប្រាស់</label>
+                <input type="text" placeholder="បញ្ជូល ឈ្មោះចូលប្រើប្រាស់">
+               
+               
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-envelope' ></i>
+                <input type="text" placeholder="បញ្ជូល​ លេខកូដសម្ងាត់">
+                <label for="#">លេខកូដសម្ងាត់</label>
+              
+            </div>
+            <div class="forgot-section">
+                <span><input type="checkbox" name="" id="checked">ចងចាំខ្ញុំ</span>
+                <span><a href="#">ភ្លេច លេខកូដសម្ងាត់?</a></span>
+            </div>
+            <button class="btn">ចូលប្រើប្រាស់</button>
+        </form>
+        <p>រឺ ភ្ជាប់ជាមួយ</p>
+        <div class="social-media">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-google'></i>
+            <i class='bx bxl-twitter'></i>
+        </div>
+        <p class="RegisteBtn RegiBtn"><a href="#">បង្កើតគណនីថ្មី</a></p>
     </div>
+    <div class="Form Register-form">
+        <h2>បង្កើតគណនីថ្មី</h2>
+        <form action="#">
+            <div class="input-box">
+                <i class='bx bxs-user'></i>
+                <label for="#">ឈ្មោះចូលប្រើប្រាស់</label>
+                <input type="text" placeholder="បញ្ជូល ឈ្មោះចូលប្រើប្រាស់">
+               
+               
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-envelope' ></i>
+                <input type="text" placeholder="បញ្ជូល លេខកូដសម្ងាត់">
+                <label for="#">លេខកូដសម្ងាត់</label>
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-envelope' ></i>
+                <input type="text" placeholder="បញ្ជូល​ លេខកូដសម្ងាត់ដដែល">
+                <label for="#">លេខកូដសម្ងាត់ដដែល</label>
+            </div>
+            <div class="forgot-section">
+                <span><input type="checkbox" name="" id="checked">ចងចាំខ្ញុំ</span>
+                <span><a href="#">ភ្លេច​ លេខកូដសម្ងាត់?</a></span>
+            </div>
+            <button class="btn" class="loginBtn">បង្កើតគណនីថ្មី</button>
+        </form>
+        <p>រឺ ភ្ជាប់ជាមួយ</p>
+        <div class="social-media">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-google'></i>
+            <i class='bx bxl-twitter'></i>
+        </div>
+        <p class="LoginBtn"><a href="#">ចូលគណនី</a></p>
+    </div>
+</div>
+<script>
+    const container=document.querySelector(".container") ;
+    const loginForm=document.querySelector('.login-form')
+    const RegisterForm=document.querySelector('.Register-form');
+    const RegiBtn=document.querySelector('.RegiBtn');
+    const LoginBtn=document.querySelector('.LoginBtn');
+    RegiBtn.addEventListener('click',()=>{
+        RegisterForm.classList.add('active');
+        loginForm.classList.add('active')
+    })
+    LoginBtn.addEventListener('click',()=>{
+        RegisterForm.classList.remove('active');
+        loginForm.classList.remove('active')
+    })
+</script>
 </body>
 </html>

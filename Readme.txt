@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Name : NHANH KIMSON
+Major: Software Egineering
+Room : 204
+Seft : Afternoon
 
-Template Name: Mentor
-Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+copyright 2024
